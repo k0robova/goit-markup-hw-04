@@ -143,6 +143,8 @@ img {
   padding: 188px 0;
   height: 600px;
   max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-title {
@@ -289,7 +291,7 @@ img {
   color: var(--body-text-color);
   letter-spacing: 0.02em;
   text-align: center;
-  margin-top: 8px;
+  /* margin-top: 8px; */
   margin-bottom: 8px;
 }
 .members-media-list {
@@ -373,7 +375,7 @@ img {
 }
 .footer-box {
   margin-right: 120px;
-  display: flex;
+  /* display: flex; */
 }
 .logo-footer-link {
   font-family: "Raleway", sans-serif;
@@ -491,14 +493,20 @@ img {
 .portfolio-link:focus .portfolio-cover-text {
   transform: translateY(0%);
 }
-
-.portfolio-link {
-  display: block;
+.portfolio-link:hover,
+.portfolio-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border: 1px solid #e7e9fc;
+}
+.portfolio-link {
+  display: block;
+  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border: 1px solid #e7e9fc; */
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .portfolio-cover-block {
   position: relative;
   overflow: hidden;
@@ -524,6 +532,7 @@ img {
   width: 360px;
   border: 1px solid var(--accent-color);
   border-top: none;
+  border: 1px solid #e7e9fc;
 }
 .portfolio-title {
   font-weight: 500;
