@@ -488,8 +488,7 @@ img {
 .portfolio-item:hover .portfolio-cover-text {
   transform: translateY(0%);
 }
-.portfolio-item:focus .portfolio-cover-text {
-  /* transform: translate(0); */
+.portfolio-link:focus .portfolio-cover-text {
   transform: translateY(0%);
 }
 
