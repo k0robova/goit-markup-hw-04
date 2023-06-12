@@ -485,8 +485,10 @@ img {
   background-color: var(--white-color);
 }
 
-.portfolio-item:hover .portfolio-cover-text,
-.portfolio-item:focus .portfolio-cover-text {
+.portfolio-item:hover .portfolio-cover-text {
+  transform: translateY(0%);
+}
+.portfolio-item:focus .portfolio-item {
   /* transform: translate(0); */
   transform: translateY(0%);
 }
